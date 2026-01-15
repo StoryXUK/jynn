@@ -33,7 +33,7 @@ CSS TABLE OF CONTENTS
 
 :root{
   /* Core brand colours */
---colorPrimary: #1b254f;       /* precise tech blue (CTA only) */
+--colorPrimary: #687196;       /* precise tech blue (CTA only) */
   --colorSecondary: #0B0F1A;      /* deep cold near-black */
   --colorWhite: #FFFFFF;
 
@@ -511,16 +511,20 @@ input[type="checkbox"] {
 
 /*service start*/
 .tf__service {
-  background: var(
-    --background-brand-2,
-    linear-gradient(102deg, #dbf1c3 -7.72%, #dce7e3 86.48%)
+  background: linear-gradient(
+    135deg,
+    #F8FAFC 0%,
+    #F1F5F9 40%,
+    #E2E8F0 100%
   );
-  border-radius: 40px 40px 0px 0px;
-  -webkit-border-radius: 40px 40px 0px 0px;
-  -moz-border-radius: 40px 40px 0px 0px;
-  -ms-border-radius: 40px 40px 0px 0px;
-  -o-border-radius: 40px 40px 0px 0px;
+  border-radius: 24px 24px 0px 0px;
+  -webkit-border-radius: 24px 24px 0px 0px;
+  -moz-border-radius: 24px 24px 0px 0px;
+  -ms-border-radius: 24px 24px 0px 0px;
+  -o-border-radius: 24px 24px 0px 0px;
+  border-top: 1px solid rgba(203, 213, 225, 0.8);
 }
+
 
 .tf__brand_heading h6 {
   font-size: 20px;
