@@ -31,20 +31,20 @@ CSS TABLE OF CONTENTS
   outline: 0;
 }
 
-:root {
-  --colorPrimary: #ff8565;
-  --colorSecondary: #111013;
-  --colorWhite: #ffffff;
-  --paraColor: #5c728e;
+:root{
+  --colorPrimary: #3B82F6;      /* clean electric blue */
+  --colorSecondary: #0B0D12;    /* near-black with a cool tint */
+  --colorWhite: #FFFFFF;
+  --paraColor: #64748B;         /* slate */
   --paraFont: "Inter", sans-serif;
   --headingFont: "DM Sans", sans-serif;
-  --boxShadow: 0px 4px 12px 0px rgba(17, 16, 19, 0.1);
+  --boxShadow: 0px 10px 30px 0px rgba(11, 13, 18, 0.12);
   --gradiantBg: linear-gradient(
     45deg,
-    #cdfff1 0%,
-    rgba(203, 245, 246, 0.73) 28.13%,
-    rgba(240, 251, 224, 0.8) 79.75%,
-    #f8ffda 100%
+    #EEF2FF 0%,
+    rgba(219, 234, 254, 0.75) 35%,
+    rgba(241, 245, 249, 0.85) 70%,
+    #FFFFFF 100%
   );
 }
 
