@@ -32,19 +32,28 @@ CSS TABLE OF CONTENTS
 }
 
 :root{
-  --colorPrimary: #06B6D4;      /* cyan */
-  --colorSecondary: #07121A;    /* deep navy */
+  /* Core brand colours */
+--colorPrimary: #1b254f;       /* precise tech blue (CTA only) */
+  --colorSecondary: #0B0F1A;      /* deep cold near-black */
   --colorWhite: #FFFFFF;
-  --paraColor: #64748B;         /* slate */
+
+  /* Typography */
+  --paraColor: #64748B;           /* cool slate text */
+  --headingColor: #0F172A;        /* strong but not harsh */
   --paraFont: "Inter", sans-serif;
   --headingFont: "DM Sans", sans-serif;
-  --boxShadow: 0px 12px 34px 0px rgba(7, 18, 26, 0.14);
+
+  /* UI */
+  --borderColor: #E2E8F0;         /* hairline borders */
+  --boxShadow: 0px 12px 30px rgba(2, 6, 23, 0.08);
+
+  /* Backgrounds */
   --gradiantBg: linear-gradient(
-  45deg,
-  #F8FAFC 0%,
-  rgba(226, 232, 240, 0.85) 30%,
-  rgba(203, 213, 225, 0.75) 65%,
-  #FFFFFF 100%
+    45deg,
+    #F8FAFC 0%,
+    rgba(226, 232, 240, 0.85) 30%,
+    rgba(203, 213, 225, 0.75) 65%,
+    #FFFFFF 100%
   );
 }
 
